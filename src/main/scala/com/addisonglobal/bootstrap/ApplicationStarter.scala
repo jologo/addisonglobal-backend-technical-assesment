@@ -11,7 +11,7 @@ import com.addisonglobal.constants.UserConstants
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration
 
-object QuickstartServer extends App with UserRoutes {
+object ApplicationStarter extends App with UserRoutes {
 
   implicit val system: ActorSystem = ActorSystem(UserConstants.customActorSystem)
   implicit val materializer: ActorMaterializer = ActorMaterializer()

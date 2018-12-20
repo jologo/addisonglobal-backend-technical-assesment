@@ -1,7 +1,5 @@
 package com.addisonglobal.constants
 
-trait UserConstants
-
 object UserConstants {
   final val host = "localhost"
   final val port = 9090
